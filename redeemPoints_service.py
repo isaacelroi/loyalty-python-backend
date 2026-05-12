@@ -74,7 +74,7 @@ def redeem_points_service(shop, customer_id):
                 }
         
         try:
-            url = "https://happen-britain-webcast-city.trycloudflare.com/api/create-discount"
+            url = "https://shopify.elroi.io/api/create-discount"
             token = os.getenv("SHOPIFY_API_KEY")
             payload = {
                 "shop": shop,
