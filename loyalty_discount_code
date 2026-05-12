@@ -1,0 +1,9 @@
+Name: loyalty_discount_code
+
+Body:
+🎁 Your loyalty reward is ready!
+
+Code: {{1}}
+Discount: {{2}}
+
+Use at checkout.

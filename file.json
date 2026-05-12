@@ -1,0 +1,234 @@
+Received webhook: ORDERS_PAID
+01:08:22 │              React Router │ Payload: {
+01:08:22 │              React Router │   id: 6084898029723,
+01:08:22 │              React Router │   admin_graphql_api_id: 'gid://shopify/Order/6084898029723',
+01:08:22 │              React Router │   app_id: 1354745,
+01:08:22 │              React Router │   browser_ip: '103.26.111.161',
+01:08:22 │              React Router │   buyer_accepts_marketing: true,
+01:08:22 │              React Router │   cancel_reason: null,
+01:08:22 │              React Router │   cancelled_at: null,
+01:08:22 │              React Router │   cart_token: null,
+01:08:22 │              React Router │   checkout_id: 28574755520667,
+01:08:22 │              React Router │   checkout_token: 'bcb7250a36810421a46e6ff3d95dfcd1',
+01:08:22 │              React Router │   client_details: {
+01:08:22 │              React Router │     accept_language: 'en-US',
+01:08:22 │              React Router │     browser_height: null,
+01:08:22 │              React Router │     browser_ip: '103.26.111.161',
+01:08:22 │              React Router │     browser_width: null,
+01:08:22 │              React Router │     session_hash: null,
+01:08:22 │              React Router │     user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0      
+Safari/537.36'
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   closed_at: null,
+01:08:22 │              React Router │   confirmation_number: 'FX667FXFX',
+01:08:22 │              React Router │   confirmed: true,
+01:08:22 │              React Router │   created_at: '2026-02-16T14:38:18-05:00',
+01:08:22 │              React Router │   currency: 'USD',
+01:08:22 │              React Router │   current_shipping_price_set: {
+01:08:22 │              React Router │     shop_money: { amount: '30.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '30.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   current_subtotal_price: '245.00',
+01:08:22 │              React Router │   current_subtotal_price_set: {
+01:08:22 │              React Router │     shop_money: { amount: '245.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '245.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   current_total_additional_fees_set: null,
+01:08:22 │              React Router │   current_total_discounts: '5.00',
+01:08:22 │              React Router │   current_total_discounts_set: {
+01:08:22 │              React Router │     shop_money: { amount: '5.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '5.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   current_total_duties_set: null,
+01:08:22 │              React Router │   current_total_price: '275.00',
+01:08:22 │              React Router │   current_total_price_set: {
+01:08:22 │              React Router │     shop_money: { amount: '275.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '275.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   current_total_tax: '0.00',
+01:08:22 │              React Router │   current_total_tax_set: {
+01:08:22 │              React Router │     shop_money: { amount: '0.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '0.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   customer_locale: 'en-US',
+01:08:22 │              React Router │   device_id: null,
+01:08:22 │              React Router │   discount_codes: [ { code: 'LOYALTY-NJLJHA', amount: '5.00', type: 'fixed_amount' } ],
+01:08:22 │              React Router │   duties_included: false,
+01:08:22 │              React Router │   estimated_taxes: false,
+01:08:22 │              React Router │   financial_status: 'paid',
+01:08:22 │              React Router │   fulfillment_status: null,
+01:08:22 │              React Router │   landing_site: '/password',
+01:08:22 │              React Router │   landing_site_ref: null,
+01:08:22 │              React Router │   location_id: 83930939547,
+01:08:22 │              React Router │   merchant_business_entity_id: '33673969819',
+01:08:22 │              React Router │   merchant_of_record_app_id: null,
+01:08:22 │              React Router │   name: '#1059',
+01:08:22 │              React Router │   note: null,
+01:08:22 │              React Router │   note_attributes: [],
+01:08:22 │              React Router │   number: 59,
+01:08:22 │              React Router │   order_number: 1059,
+01:08:22 │              React Router │   original_total_additional_fees_set: null,
+01:08:22 │              React Router │   original_total_duties_set: null,
+01:08:22 │              React Router │   payment_gateway_names: [ 'bogus' ],
+01:08:22 │              React Router │   po_number: null,
+01:08:22 │              React Router │   presentment_currency: 'USD',
+01:08:22 │              React Router │   processed_at: '2026-02-16T14:38:16-05:00',
+01:08:22 │              React Router │   reference: null,
+01:08:22 │              React Router │   referring_site: null,
+01:08:22 │              React Router │   source_identifier: null,
+01:08:22 │              React Router │   source_name: 'shopify_draft_order',
+01:08:22 │              React Router │   source_url: null,
+01:08:22 │              React Router │   subtotal_price: '245.00',
+01:08:22 │              React Router │   subtotal_price_set: {
+01:08:22 │              React Router │     shop_money: { amount: '245.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '245.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   tags: '',
+01:08:22 │              React Router │   tax_exempt: false,
+01:08:22 │              React Router │   tax_lines: [],
+01:08:22 │              React Router │   taxes_included: false,
+01:08:22 │              React Router │   test: true,
+01:08:22 │              React Router │   token: 'bb0b8f3b11da5a852055edf36ee67004',
+01:08:22 │              React Router │   total_cash_rounding_payment_adjustment_set: {
+01:08:22 │              React Router │     shop_money: { amount: '0.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '0.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   total_cash_rounding_refund_adjustment_set: {
+01:08:22 │              React Router │     shop_money: { amount: '0.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '0.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   total_discounts: '5.00',
+01:08:22 │              React Router │   total_discounts_set: {
+01:08:22 │              React Router │     shop_money: { amount: '5.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '5.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   total_line_items_price: '250.00',
+01:08:22 │              React Router │   total_line_items_price_set: {
+01:08:22 │              React Router │     shop_money: { amount: '250.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '250.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   total_outstanding: '0.00',
+01:08:22 │              React Router │   total_price: '275.00',
+01:08:22 │              React Router │   total_price_set: {
+01:08:22 │              React Router │     shop_money: { amount: '275.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '275.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   total_shipping_price_set: {
+01:08:22 │              React Router │     shop_money: { amount: '30.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '30.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   total_tax: '0.00',
+01:08:22 │              React Router │   total_tax_set: {
+01:08:22 │              React Router │     shop_money: { amount: '0.00', currency_code: 'USD' },
+01:08:22 │              React Router │     presentment_money: { amount: '0.00', currency_code: 'USD' }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   total_tip_received: '0.00',
+01:08:22 │              React Router │   total_weight: 0,
+01:08:22 │              React Router │   updated_at: '2026-02-16T14:38:19-05:00',
+01:08:22 │              React Router │   user_id: 97313063067,
+01:08:22 │              React Router │   billing_address: {
+01:08:22 │              React Router │     province: 'Ontario',
+01:08:22 │              React Router │     country: 'Canada',
+01:08:22 │              React Router │     country_code: 'CA',
+01:08:22 │              React Router │     province_code: 'ON'
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   customer: {
+01:08:22 │              React Router │     id: 8653110804635,
+01:08:22 │              React Router │     created_at: '2026-02-03T08:01:29-05:00',
+01:08:22 │              React Router │     updated_at: '2026-02-16T14:38:19-05:00',
+01:08:22 │              React Router │     state: 'disabled',
+01:08:22 │              React Router │     note: null,
+01:08:22 │              React Router │     verified_email: true,
+01:08:22 │              React Router │     multipass_identifier: null,
+01:08:22 │              React Router │     tax_exempt: false,
+01:08:22 │              React Router │     currency: 'USD',
+01:08:22 │              React Router │     tax_exemptions: [],
+01:08:22 │              React Router │     admin_graphql_api_id: 'gid://shopify/Customer/8653110804635',
+01:08:22 │              React Router │     default_address: {
+01:08:22 │              React Router │       id: 9606842843291,
+01:08:22 │              React Router │       customer_id: 8653110804635,
+01:08:22 │              React Router │       company: null,
+01:08:22 │              React Router │       province: 'Ontario',
+01:08:22 │              React Router │       country: 'Canada',
+01:08:22 │              React Router │       province_code: 'ON',
+01:08:22 │              React Router │       country_code: 'CA',
+01:08:22 │              React Router │       country_name: 'Canada',
+01:08:22 │              React Router │       default: true
+01:08:22 │              React Router │     }
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   discount_applications: [
+01:08:22 │              React Router │     {
+01:08:22 │              React Router │       target_type: 'line_item',
+01:08:22 │              React Router │       type: 'discount_code',
+01:08:22 │              React Router │       value: '5.0',
+01:08:22 │              React Router │       value_type: 'fixed_amount',
+01:08:22 │              React Router │       allocation_method: 'across',
+01:08:22 │              React Router │       target_selection: 'all',
+01:08:22 │              React Router │       code: 'LOYALTY-NJLJHA'
+01:08:22 │              React Router │     }
+01:08:22 │              React Router │   ],
+01:08:22 │              React Router │   fulfillments: [],
+01:08:22 │              React Router │   line_items: [
+01:08:22 │              React Router │     {
+01:08:22 │              React Router │       id: 14094831124635,
+01:08:22 │              React Router │       admin_graphql_api_id: 'gid://shopify/LineItem/14094831124635',
+01:08:22 │              React Router │       attributed_staffs: [],
+01:08:22 │              React Router │       current_quantity: 1,
+01:08:22 │              React Router │       fulfillable_quantity: 1,
+01:08:22 │              React Router │       fulfillment_service: 'manual',
+01:08:22 │              React Router │       fulfillment_status: null,
+01:08:22 │              React Router │       gift_card: false,
+01:08:22 │              React Router │       grams: 0,
+01:08:22 │              React Router │       name: 'Green Snowboard',
+01:08:22 │              React Router │       price: '250.00',
+01:08:22 │              React Router │       price_set: [Object],
+01:08:22 │              React Router │       product_exists: true,
+01:08:22 │              React Router │       product_id: 8885607661723,
+01:08:22 │              React Router │       properties: [],
+01:08:22 │              React Router │       quantity: 1,
+01:08:22 │              React Router │       requires_shipping: true,
+01:08:22 │              React Router │       sales_line_item_group_id: null,
+01:08:22 │              React Router │       sku: null,
+01:08:22 │              React Router │       taxable: true,
+01:08:22 │              React Router │       title: 'Green Snowboard',
+01:08:22 │              React Router │       total_discount: '0.00',
+01:08:22 │              React Router │       total_discount_set: [Object],
+01:08:22 │              React Router │       variant_id: 47964231237787,
+01:08:22 │              React Router │       variant_inventory_management: null,
+01:08:22 │              React Router │       variant_title: null,
+01:08:22 │              React Router │       vendor: 'loyalty store',
+01:08:22 │              React Router │       tax_lines: [],
+01:08:22 │              React Router │       duties: [],
+01:08:22 │              React Router │       discount_allocations: [Array]
+01:08:22 │              React Router │     }
+01:08:22 │              React Router │   ],
+01:08:22 │              React Router │   payment_terms: null,
+01:08:22 │              React Router │   refunds: [],
+01:08:22 │              React Router │   shipping_address: {
+01:08:22 │              React Router │     province: 'Ontario',
+01:08:22 │              React Router │     country: 'Canada',
+01:08:22 │              React Router │     country_code: 'CA',
+01:08:22 │              React Router │     province_code: 'ON'
+01:08:22 │              React Router │   },
+01:08:22 │              React Router │   shipping_lines: [
+01:08:22 │              React Router │     {
+01:08:22 │              React Router │       id: 5043448610971,
+01:08:22 │              React Router │       carrier_identifier: null,
+01:08:22 │              React Router │       code: 'International Shipping',
+01:08:22 │              React Router │       current_discounted_price_set: [Object],
+01:08:22 │              React Router │       discounted_price: '30.00',
+01:08:22 │              React Router │       discounted_price_set: [Object],
+01:08:22 │              React Router │       is_removed: false,
+01:08:22 │              React Router │       phone: null,
+01:08:22 │              React Router │       price: '30.00',
+01:08:22 │              React Router │       price_set: [Object],
+01:08:22 │              React Router │       requested_fulfillment_service_id: null,
+01:08:22 │              React Router │       source: 'shopify',
+01:08:22 │              React Router │       title: 'International Shipping',
+01:08:22 │              React Router │       tax_lines: [],
+01:08:22 │              React Router │       discount_allocations: []
+01:08:22 │              React Router │     }
+01:08:22 │              React Router │   ],
+01:08:22 │              React Router │   returns: [],
+01:08:22 │              React Router │   line_item_groups: []
+01:08:22 │              React Router │ }

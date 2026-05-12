@@ -1,0 +1,16 @@
+services:
+  worker:    
+    container_name: shopify_worker
+    build:
+      context: .
+      dockerfile: worker-dockerfile
+    command: python worker.py # Replace with your worker file
+    environment:
+      - REDIS_HOST=redis_app
+      - REDIS_PORT=6379
+    networks:
+      - loyalty-net
+      
+networks:
+  loyalty-net:
+    external: true

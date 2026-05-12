@@ -1,0 +1,18 @@
+services:
+  flask_app:
+    container_name: shopify_backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python app.py  # Replace with your entry file
+    ports:
+      - "5001:5001"
+    environment:
+      - REDIS_HOST=redis
+      - MONGODB_URI=mongodb+srv://loyalty_app:e1C50tK0iOfj2e8j@cluster0.iyq9xso.mongodb.net/loyalty_app?retryWrites=true&w=majority    
+    networks:
+      - loyalty-net
+
+networks:
+  loyalty-net:
+    external: true
