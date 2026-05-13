@@ -8,8 +8,15 @@ services:
     ports:
       - "5001:5001"
     environment:
-      - REDIS_HOST=redis
-      - MONGODB_URI=mongodb+srv://loyalty_app:e1C50tK0iOfj2e8j@cluster0.iyq9xso.mongodb.net/loyalty_app?retryWrites=true&w=majority    
+      MONGODB_URI: ${MONGODB_URI}
+      SHOPIFY_API_KEY: ${SHOPIFY_API_KEY}
+      REDIS_HOST: ${REDIS_HOST}
+      REDIS_PORT: ${REDIS_PORT}
+      WATI_KEY: ${WATI_KEY}
+      WATI_API: ${WATI_API}
+      TWILIO_ACCOUNT_SID: ${TWILIO_ACCOUNT_SID}
+      TWILIO_AUTH_TOKEN: ${TWILIO_AUTH_TOKEN}
+
     networks:
       - loyalty-net
 
