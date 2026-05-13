@@ -4,7 +4,7 @@ from redeemPoints_service import redeem_points_service
 redeem_bp = Blueprint("redeem", __name__)
 
 
-@redeem_bp.route("/redeem", methods=["POST"])
+@redeem_bp.route("/redeem/", methods=["POST"])
 def redeem_api():
 
     data = request.json
